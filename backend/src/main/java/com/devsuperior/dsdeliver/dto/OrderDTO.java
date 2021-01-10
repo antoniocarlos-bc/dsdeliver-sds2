@@ -22,7 +22,7 @@ public class OrderDTO implements Serializable{
 	private Instant moment;
 	private OrderStatus status;
 	
-	private List<ProductDTO> products= new ArrayList<>();
+	private List<ProductDTO> products = new ArrayList<>();
 	
     public OrderDTO() {
     	
