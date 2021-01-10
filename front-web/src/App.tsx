@@ -1,9 +1,16 @@
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar/Index';
+
+
 
 function App() {
   return (
-    <div>
-     <h1>Hello!</h1>
+    <div >
+
+      <Navbar />
+
     </div>
   );
 }
